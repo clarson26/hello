@@ -7,7 +7,7 @@
 #include<stdlib.io>
 #include<stdio.h>
 
-  int main()    {
+  int main( )    {
 
   double longitudeOne;
   double latitudeOne;

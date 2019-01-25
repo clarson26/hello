@@ -15,11 +15,20 @@
   double longitudeTwo;
   double latitudeTwo;
 
-  printf("Current location: (");
+  printf("Enter Current Location's Longitude Coordinate: ");
   scanf("%lf", longitudeOne);
-  printf("%lf, ", longitudeOne);
+  printf("\n");
+  printf("Enter Current Location's Latitude Coordinate: ");
   scanf("%lf", latitudeOne);
-  printf("%lf)\n", latitudeOne);
+  printf("\n");
+  printf("Enter Destination's Latitude Coordinate: ");
+  scanf("%lf", latitudeTwo);
+  printf("\n");
+  printf("Enter Destination's Longitude Coordinate: ");
+  scanf("%lf", longitudeTwo);
+  printf("\n");
+
+
 
 
 

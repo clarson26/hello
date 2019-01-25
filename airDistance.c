@@ -8,18 +8,18 @@
 #include<stdio.h>
 #include<math.h>
 
-  int main( )    {
+  int main(void)    {
 
   double longitudeOne;
   double latitudeOne;
   double longitudeTwo;
   double latitudeTwo;
 
-  printf("Enter Current Location's Longitude Coordinate: ");
-  scanf("%lf", longitudeOne);
-  printf("\n");
   printf("Enter Current Location's Latitude Coordinate: ");
   scanf("%lf", latitudeOne);
+  printf("\n");
+  printf("Enter Current Location's Longitude Coordinate: ");
+  scanf("%lf", longitudeOne);
   printf("\n");
   printf("Enter Destination's Latitude Coordinate: ");
   scanf("%lf", latitudeTwo);
